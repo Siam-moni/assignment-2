@@ -163,3 +163,76 @@ color: #ffffff;
 .rating p{
 color: #ffffff;  
 }
+/* Choose-TechWave section */
+
+#Choose-TechWave{
+  background-color: #230E3D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 90px 150px;
+}
+.choose-techwave-head{
+  margin-bottom: 40px;
+}
+.choose-techwave-head h3{
+font-size: 3rem;
+color: #ffffff;
+}
+.cmn>*{
+  padding: 7px;
+  color: #ffffff;
+}
+.cmn{
+  border-radius: 10px;
+}
+.Choose-TechWave-card1{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: justify;
+  background-color: #351165;
+  padding: 15px;
+  grid-area: Choose-TechWave-card1;
+}
+.Choose-TechWave-card2{
+  background-color: #351165;
+   padding: 20px;
+ grid-area: Choose-TechWave-card2;
+}
+.Choose-TechWave-card3{
+  background-color: #351165;
+   padding: 20px;
+ grid-area: Choose-TechWave-card3;
+}
+.Choose-TechWave-card4{
+  background-color: #351165;
+   padding: 20px;
+ grid-area: Choose-TechWave-card4;
+}
+.Choose-TechWave-card4 img{
+  width: 12%;
+  border-radius: 50%;
+  /* ai card ar icon paini jonne ss niya use koresi */
+}
+.Choose-TechWave-card5{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: justify;
+  background-color: #351165;
+  padding: 20px;
+ grid-area: Choose-TechWave-card5;
+}
+.choose-techwave-main-container{
+  display: grid;
+  gap: 30px;
+  grid-template-areas:
+  "Choose-TechWave-card1 Choose-TechWave-card2 Choose-TechWave-card2"
+  "Choose-TechWave-card1 Choose-TechWave-card3 Choose-TechWave-card3"
+  "Choose-TechWave-card4 Choose-TechWave-card4 Choose-TechWave-card5";
+  max-width: 1200px;
+}
