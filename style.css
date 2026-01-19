@@ -9,6 +9,19 @@ body {
   font-style: normal;
 }
 /* shared style */
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 150px;
+  color: #ffffff;
+  font-weight: 600;
+  background: linear-gradient(
+    to top,
+    rgb(231, 216, 53),
+    rgb(224, 7, 159),
+    rgb(123, 4, 209)
+  );
+}
 /* navbar style */
 .techwave-navbar {
   max-width: 1600px;
@@ -49,16 +62,65 @@ body {
 .techwave-btn {
   border: none;
 }
-.techwave-btn .btn {
-  border: none;
+/* hero section start */
+.hero-section {
+  background-image: url(./assets/hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px ;
+}
+  .hero-img-div {
+    text-align: center;
+    background-image: url(./assets/hero-circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    padding: 100px;
+  }
+}
+.hero-img img {
+  width: 90%;
+}
+.hero-des-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-des-header {
+  text-align: center;
+}
+.hero-des-header h3 {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #ffffff;
+}
+.hero-des-header p {
+  font-size: 1rem;
+  color: #ffffff;
+}
+.hero-des-btn {
+  text-align: center;
+  margin-top: 24px;
+}
+.hero-btn1 {
+  margin-right: 10px;
+}
+.hero-btn1-icon {
+  padding-right: 8px;
+}
+#hero-btn2 {
+  text-align: center;
+  border: 1px solid #00ff88;
   padding: 10px;
   border-radius: 150px;
-  color: #ffffff;
+  color: #00ff88;
   font-weight: 600;
-  background: linear-gradient(
-    to top,
-    rgb(231, 216, 53),
-    rgb(224, 7, 159),
-    rgb(123, 4, 209)
-  );
+  background: transparent;
+  width: 130px;
+}
+#hero-btn2 img {
+  width: 14px;
+  padding-right: 8px;
 }
