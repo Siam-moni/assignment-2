@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared style */
+/* navbar style */
+.techwave-navbar {
+  max-width: 1600px;
+  background-color: #412567;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.techwave-navbar .tech-color {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.techwave-navbar #wave-color {
+  background: linear-gradient(
+    to top,
+    rgb(231, 216, 53),
+    rgb(224, 7, 159),
+    rgb(123, 4, 209)
+  );
+  background-clip: text;
+  color: transparent;
+}
+.techwave-manubar-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 32px;
+}
+.techwave-manubar-list li {
+  list-style: none;
+}
+.techwave-manubar-list li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.techwave-btn {
+  border: none;
+}
+.techwave-btn .btn {
+  border: none;
+  padding: 10px;
+  border-radius: 150px;
+  color: #ffffff;
+  font-weight: 600;
+  background: linear-gradient(
+    to top,
+    rgb(231, 216, 53),
+    rgb(224, 7, 159),
+    rgb(123, 4, 209)
+  );
+}
