@@ -25,7 +25,7 @@ body {
 /* navbar style */
 .techwave-navbar {
   max-width: 1600px;
-  background-color: #412567;
+  background-color: #190c2d;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -123,4 +123,43 @@ body {
 #hero-btn2 img {
   width: 14px;
   padding-right: 8px;
+}
+/* podcast section */
+#podcast-section{
+background-color: #190c2d;
+}
+.Podcast-des{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.podcast-des-div{
+max-width: 1200px;
+}
+.podcast-des-div h2{
+font-size: 3rem;
+font-weight: bold;
+color: #ffffff;
+}
+.podcast-des-div p{
+  color: #ffffff;
+  line-height: 2;
+  margin-top: 10px;
+}
+.podcast-rating{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  padding: 80px;
+  line-height: 1.5;
+}
+.rating h3{
+ font-size: 3rem;
+ font-weight: bold;
+ color: #00FF88;
+}
+.rating p{
+color: #ffffff;  
 }
