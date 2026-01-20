@@ -133,7 +133,7 @@ body {
   width: 130px;
 }
 #hero-btn2 img {
-  width: 14px;
+  width: 22px;
   padding-right: 8px;
 }
 /* podcast section */
@@ -198,6 +198,9 @@ body {
 }
 .cmn {
   border-radius: 10px;
+}
+.cmn h3 {
+  font-size: 2rem;
 }
 .Choose-TechWave-card1 {
   display: flex;
@@ -266,7 +269,6 @@ body {
 }
 .Featured-Episodes-vedio {
   max-width: 1200px;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -300,6 +302,7 @@ body {
 }
 .vedio1-time ul li {
   list-style: none;
+  color: #00ff88;
 }
 .vedio1-time img {
   width: 16px;
@@ -329,6 +332,7 @@ body {
 }
 .vedio2-time ul li {
   list-style: none;
+  color: #00ff88;
 }
 .vedio2-time img {
   width: 16px;
@@ -358,6 +362,7 @@ body {
 }
 .vedio3-time ul li {
   list-style: none;
+  color: #00ff88;
 }
 .vedio3-time img {
   width: 16px;
@@ -416,20 +421,29 @@ body {
 .Alex-Kumar-des ul li {
   list-style: none;
 }
+.Alex-Kumar-des img {
+  border: #532d84 1px solid;
+  padding: 10px;
+  border-radius: 20px;
+}
+#in-img {
+  padding: 10px;
+  border-radius: 15px;
+}
 /* footer start here */
 footer {
   background-image: url(./assets/footer-bg.png);
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
 }
 .footer-container {
   max-width: 1200px;
   text-align: center;
-  margin: 70px 0px;
-  /* padding: 100px 0px; */
+  padding: 40px;
 }
 .tech-color {
   font-size: 3rem;
@@ -452,13 +466,13 @@ footer {
   align-items: center;
   list-style: none;
   flex-direction: column;
+  padding: 30px;
 }
 .manu {
   max-width: 580px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 30px;
 }
 .manu ul {
   display: grid;

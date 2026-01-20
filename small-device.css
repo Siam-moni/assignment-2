@@ -1,0 +1,132 @@
+@media screen and (max-width: 576px) {
+  .techwave-navbar {
+    flex-direction: column;
+  }
+  .techwave-manubar-list {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+  .techwave-manubar-list li {
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(66, 14, 114);
+    border-radius: 50px;
+  }
+  /* kono vabei hambar icon dite parsi na jonne ai vabe kora */
+
+  /* hero section start */
+  .hero-section {
+    padding: 0px 30px;
+  }
+  .hero-img-div {
+    background-size: 100%;
+    padding: 40px;
+    margin-top: 50px;
+  }
+  .hero-img img {
+    width: 80%;
+  }
+  .new {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 15px;
+  }
+  .hero-des-header {
+    padding: 20px;
+  }
+  .hero-des-header h3 {
+    font-size: 3rem;
+    padding: 5px;
+  }
+  .hero-des-btn {
+    margin-top: 5px;
+  }
+  #hero-btn2 img {
+    width: 22px;
+  }
+  #podcast-section {
+    padding: 30px;
+  }
+  .podcast-des-div h2 {
+    margin-top: 20px;
+  }
+  .podcast-rating {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    text-align: center;
+    padding: 20px;
+  }
+  #Choose-TechWave {
+    padding: 50px 30px;
+  }
+  .choose-techwave-head h3 {
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  .choose-techwave-main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .Choose-TechWave-card4 img {
+    width: 20%;
+    border-radius: 50%;
+    /* ai card ar icon paini jonne ss niya use koresi */
+  }
+  #Featured-Episodes {
+    text-align: center;
+    padding: 40px 30px;
+  }
+  .Featured-Episodes-head h3 {
+    font-size: 2rem;
+  }
+  .Featured-Episodes-vedio {
+    flex-direction: column;
+  }
+  #host {
+    flex-direction: column;
+  }
+  .host-main-div {
+    padding: 50px 50px;
+    flex-direction: column;
+  }
+  .host-head {
+    font-size: 2rem;
+  }
+  .host-Alex-Kumar {
+    text-align: center;
+    flex-direction: column;
+  }
+  .Alex-Kumar-img {
+    margin-bottom: 30px;
+  }
+  .Alex-Kumar-des ul {
+    justify-content: center;
+    gap: 30px;
+  }
+  footer {
+    background-image: url(./assets/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .footer-container {
+    padding: 1px;
+    padding: 10px;
+  }
+
+  .footer-manubar {
+    padding: 10px 50px;
+  }
+
+  .manu ul {
+    margin-top: 1rem;
+  }
+  .manu ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 1px;
+  }
+}
