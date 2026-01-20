@@ -68,16 +68,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 70px ;
+  padding: 70px;
 }
-  .hero-img-div {
-    text-align: center;
-    background-image: url(./assets/hero-circle.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:100%;
-    padding: 100px;
-  }
+.hero-img-div {
+  text-align: center;
+  background-image: url(./assets/hero-circle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 100px;
 }
 .hero-img img {
   width: 90%;
@@ -125,29 +124,29 @@ body {
   padding-right: 8px;
 }
 /* podcast section */
-#podcast-section{
-background-color: #190c2d;
+#podcast-section {
+  background-color: #190c2d;
 }
-.Podcast-des{
+.Podcast-des {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.podcast-des-div{
-max-width: 1200px;
+.podcast-des-div {
+  max-width: 1200px;
 }
-.podcast-des-div h2{
-font-size: 3rem;
-font-weight: bold;
-color: #ffffff;
+.podcast-des-div h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
 }
-.podcast-des-div p{
+.podcast-des-div p {
   color: #ffffff;
   line-height: 2;
   margin-top: 10px;
 }
-.podcast-rating{
+.podcast-rating {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -155,39 +154,39 @@ color: #ffffff;
   padding: 80px;
   line-height: 1.5;
 }
-.rating h3{
- font-size: 3rem;
- font-weight: bold;
- color: #00FF88;
+.rating h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00ff88;
 }
-.rating p{
-color: #ffffff;  
+.rating p {
+  color: #ffffff;
 }
 /* Choose-TechWave section */
 
-#Choose-TechWave{
-  background-color: #230E3D;
+#Choose-TechWave {
+  background-color: #230e3d;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 90px 150px;
 }
-.choose-techwave-head{
+.choose-techwave-head {
   margin-bottom: 40px;
 }
-.choose-techwave-head h3{
-font-size: 3rem;
-color: #ffffff;
+.choose-techwave-head h3 {
+  font-size: 3rem;
+  color: #ffffff;
 }
-.cmn>*{
+.cmn > * {
   padding: 7px;
   color: #ffffff;
 }
-.cmn{
+.cmn {
   border-radius: 10px;
 }
-.Choose-TechWave-card1{
+.Choose-TechWave-card1 {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -197,27 +196,27 @@ color: #ffffff;
   padding: 15px;
   grid-area: Choose-TechWave-card1;
 }
-.Choose-TechWave-card2{
+.Choose-TechWave-card2 {
   background-color: #351165;
-   padding: 20px;
- grid-area: Choose-TechWave-card2;
+  padding: 20px;
+  grid-area: Choose-TechWave-card2;
 }
-.Choose-TechWave-card3{
+.Choose-TechWave-card3 {
   background-color: #351165;
-   padding: 20px;
- grid-area: Choose-TechWave-card3;
+  padding: 20px;
+  grid-area: Choose-TechWave-card3;
 }
-.Choose-TechWave-card4{
+.Choose-TechWave-card4 {
   background-color: #351165;
-   padding: 20px;
- grid-area: Choose-TechWave-card4;
+  padding: 20px;
+  grid-area: Choose-TechWave-card4;
 }
-.Choose-TechWave-card4 img{
+.Choose-TechWave-card4 img {
   width: 12%;
   border-radius: 50%;
   /* ai card ar icon paini jonne ss niya use koresi */
 }
-.Choose-TechWave-card5{
+.Choose-TechWave-card5 {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -225,14 +224,121 @@ color: #ffffff;
   text-align: justify;
   background-color: #351165;
   padding: 20px;
- grid-area: Choose-TechWave-card5;
+  grid-area: Choose-TechWave-card5;
 }
-.choose-techwave-main-container{
+.choose-techwave-main-container {
   display: grid;
   gap: 30px;
   grid-template-areas:
-  "Choose-TechWave-card1 Choose-TechWave-card2 Choose-TechWave-card2"
-  "Choose-TechWave-card1 Choose-TechWave-card3 Choose-TechWave-card3"
-  "Choose-TechWave-card4 Choose-TechWave-card4 Choose-TechWave-card5";
+    "Choose-TechWave-card1 Choose-TechWave-card2 Choose-TechWave-card2"
+    "Choose-TechWave-card1 Choose-TechWave-card3 Choose-TechWave-card3"
+    "Choose-TechWave-card4 Choose-TechWave-card4 Choose-TechWave-card5";
   max-width: 1200px;
+}
+/* Featured-Episodes start here */
+
+#Featured-Episodes {
+  background-color: #1a0b2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 200px;
+}
+.Featured-Episodes-head h3 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+.Featured-Episodes-vedio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.ifrem1 {
+  width: 300px;
+  box-shadow: 5px 5px 10px #532d84;
+  color: #ffffff;
+  background-color: #2d1053;
+  border-radius: 15px;
+}
+
+.vedio1-des {
+  padding: 10px;
+}
+.vedio1-des h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.vedio1-des p {
+  margin: 10px auto;
+}
+.vedio1-time ul {
+  display: flex;
+  gap: 5px;
+  text-align: center;
+}
+.vedio1-time ul li {
+  list-style: none;
+}
+.vedio1-time img {
+  width: 16px;
+}
+.ifrem2 {
+  width: 300px;
+  box-shadow: 5px 5px 10px #532d84;
+  color: #ffffff;
+  background-color: #2d1053;
+  border-radius: 15px;
+}
+.vedio2-des {
+  padding: 10px;
+}
+.vedio2-des h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.vedio2-des p {
+  margin: 10px auto;
+}
+.vedio2-time ul {
+  display: flex;
+  gap: 5px;
+  text-align: center;
+}
+.vedio2-time ul li {
+  list-style: none;
+}
+.vedio2-time img {
+  width: 16px;
+}
+.ifrem3 {
+  width: 300px;
+  box-shadow: 5px 5px 10px #532d84;
+  color: #ffffff;
+  background-color: #2d1053;
+  border-radius: 15px;
+}
+.vedio3-des {
+  padding: 10px;
+}
+.vedio3-des h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.vedio3-des p {
+  margin: 10px auto;
+}
+.vedio3-time ul {
+  display: flex;
+  gap: 5px;
+  text-align: center;
+}
+.vedio3-time ul li {
+  list-style: none;
+}
+.vedio3-time img {
+  width: 16px;
 }
