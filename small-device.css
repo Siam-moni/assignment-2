@@ -12,7 +12,12 @@
     padding: 10px;
     background-color: rgb(66, 14, 114);
     border-radius: 50px;
+    transition: all 0.3s ease;
   }
+  .techwave-manubar-list li:hover {
+    transform: scale(1.1);
+  }
+
   /* kono vabei hambar icon dite parsi na jonne ai vabe kora */
 
   /* hero section start */

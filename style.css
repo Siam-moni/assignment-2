@@ -23,6 +23,16 @@ body {
     rgb(224, 7, 159),
     rgb(123, 4, 209)
   );
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background: linear-gradient(
+    to top,
+    rgb(123, 122, 107),
+    rgb(140, 20, 104),
+    rgb(80, 30, 117)
+  );
+  transform: scale(1.1);
 }
 /* navbar style */
 .techwave-navbar {
@@ -131,6 +141,10 @@ body {
   font-weight: 600;
   background: transparent;
   width: 130px;
+  transition: all 0.3s ease;
+}
+#hero-btn2:hover {
+  transform: scale(1.1);
 }
 #hero-btn2 img {
   width: 22px;
@@ -198,9 +212,13 @@ body {
 }
 .cmn {
   border-radius: 10px;
+  transition: all 0.5s ease;
 }
 .cmn h3 {
   font-size: 2rem;
+}
+.cmn:hover {
+  transform: scale(1.09);
 }
 .Choose-TechWave-card1 {
   display: flex;
@@ -469,7 +487,7 @@ footer {
   padding: 30px;
 }
 .manu {
-  max-width: 580px;
+  max-width: 630px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
